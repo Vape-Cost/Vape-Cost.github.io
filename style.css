@@ -26,13 +26,25 @@ html, body {
 }
 
 body {
-  margin: 0 auto;
-  padding: 5vh 5vw;
+  margin: 5vh auto;
+  padding: 0 5vw;
   font-family: "Sofia Sans Regular";
   font-size: 18px;
   max-width: 60ch;
   overflow-wrap: break-word;
   text-align: justify;
+}
+
+.bannerNotification {
+  background: #4693FC;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-family: "Sofia Sans Bold";
 }
 
 section {
